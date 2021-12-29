@@ -1,0 +1,36 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    display: flex;
+  
+    /* This centers our sketch horizontally. */
+    justify-content: center;
+  
+    /* This centers our sketch vertically. */
+    align-items: center;
+
+    font-family: Calibri;
+}
+
+#container{
+    background-color: darkgray;
+    padding: 30px;
+    padding-top: 25px;
+    border: medium solid black;
+}
+
+h1{
+    font-size: 28px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+#form{
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
